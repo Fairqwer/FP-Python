@@ -1,3 +1,4 @@
+import operator
 import os
 os.system("cls")
 
