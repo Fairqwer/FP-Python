@@ -1,6 +1,9 @@
-a = int(input("A= "))
+import os
+os.system("cls")
 
+ca = int(input("Cateto adyacente: "))
+co = int(input("Cateto opuesto: "))
 
-problem = a**0.5
+h = ((ca*ca) + (co*co))**0.5
 
-print(problem)
+print(f"La hipotenusa es {h:.2f}")
