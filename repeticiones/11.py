@@ -12,4 +12,4 @@ for num in range(100,1000):
         capicuas = capicuas+", "+str(num)
 
 print(f"Hay {contador} números capicúas de tres cifras.")
-print("Dichos numeros son"+capicuas)
+print("Dichos numeros son"+capicuas) 
